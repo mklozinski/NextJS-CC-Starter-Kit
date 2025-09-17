@@ -165,20 +165,24 @@ Make sure to set all required environment variables in your deployment platform:
 
 ```env
 DATABASE_URL="your-production-mongodb-url"
+NEXT_PUBLIC_URL="https://yourdomain.com"
 NEXTAUTH_URL="https://yourdomain.com"
 NEXTAUTH_SECRET="your-production-secret"
 RESEND_API_KEY="your-resend-api-key"
 FROM_EMAIL="noreply@yourdomain.com"
-# OAuth credentials if using
+# OAuth credentials if using (optional)
 GOOGLE_CLIENT_ID=""
 GOOGLE_CLIENT_SECRET=""
 GITHUB_CLIENT_ID=""
 GITHUB_CLIENT_SECRET=""
-# Stripe (optional)
+# Stripe
 STRIPE_SECRET_KEY="sk_live_your_key"
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_live_your_key"
 STRIPE_WEBHOOK_SECRET="whsec_your_live_secret"
-
+STRIPE_PRICE_PRO_MONTHLY="price_plan1-monthly"
+STRIPE_PRICE_PRO_YEARLY="price_plan1-yearly"
+STRIPE_PRICE_ULTRA_MONTHLY="price-plan2-monthly"
+STRIPE_PRICE_ULTRA_YEARLY="price-plan2-yearly"
 ```
 
 ### Database Migration
