@@ -3,19 +3,18 @@ import { Button } from "@/components/ui/button"
 // Clean starter: images and FAQ removed
 
 export default function Home() {
-  const repoUrl = (globalThis as any).process?.env?.NEXT_PUBLIC_STARTER_REPO_URL ?? "https://github.com/yourusername/NextJS-CC-Starter-Kit"
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-black dark:to-gray-900">
       {/* Hero Section */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">Next.js SaaS Starter Kit</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">Next.js CC Starter Kit</h1>
           <p className="mt-3 max-w-2xl mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl">
             Clean boilerplate with auth, Prisma (MongoDB), emails, and optional Stripe. Follow the steps below to start.
           </p>
           <div className="mt-8 flex justify-center space-x-4">
             <a
-              href={repoUrl}
+              href="https://github.com/mklozinski/NextJS-CC-Starter-Kit"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -23,8 +22,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-
-        {/* Feature marketing removed for clean starter */}
 
         {/* Getting Started Detailed Instructions */}
         <div className="mt-20 bg-white rounded-lg shadow-lg p-8">
@@ -41,13 +38,13 @@ export default function Home() {
                   Open the repository and click <span className="font-medium">Use this template</span> or fork it.
                 </div>
                 <div className="mt-3">
-                  <a href={repoUrl} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Open repository</a>
+                  <a href="https://github.com/mklozinski/NextJS-CC-Starter-Kit" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Open repository</a>
                 </div>
               </li>
               <li>
                 <span className="font-semibold">Clone and install</span>
                 <pre className="mt-2 bg-gray-900 text-gray-100 rounded-md p-4 overflow-x-auto text-sm">
-{`git clone YOUR_REPO_URL my-app
+{`git clone https://github.com/mklozinski/NextJS-CC-Starter-Kit my-app
 cd my-app
 npm install`}
                 </pre>
@@ -101,7 +98,7 @@ npm run seed`}
         {/* Quick link to repo */}
         <div className="text-center mt-8">
           <a
-            href={repoUrl}
+            href="https://github.com/mklozinski/NextJS-CC-Starter-Kit"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"

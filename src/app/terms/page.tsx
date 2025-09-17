@@ -1,6 +1,8 @@
 import { FileText, Scale, Shield, AlertTriangle, Users, Heart } from "lucide-react"
 import Link from "next/link"
 
+{/* This is from demo-website page. Adapt to your project. */}
+
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-black dark:to-gray-900">
@@ -16,7 +18,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Terms and conditions for using this free, open-source Next.js starter kit 
+            Terms and conditions for using this free, open-source Next.js CC starter kit 
             and its demo website.
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">
@@ -52,7 +54,7 @@ export default function TermsPage() {
             
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
-                By using this Next.js starter kit or accessing this demo website, you agree to be bound by these terms and conditions.
+                By using this Next.js CC starter kit or accessing this demo website, you agree to be bound by these terms and conditions.
               </p>
               <p>
                 This agreement takes effect when you:
@@ -75,7 +77,7 @@ export default function TermsPage() {
             
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
-                The Next.js Starter Kit is a free, open-source boilerplate that provides:
+                The Next.js CC Starter Kit is a free, open-source boilerplate that provides:
               </p>
               <div className="grid md:grid-cols-2 gap-6 mt-4">
                 <ul className="space-y-2">
@@ -304,7 +306,7 @@ export default function TermsPage() {
                   <p>
                     <strong>GitHub Issues:</strong>{" "}
                     <a 
-                      href="https://github.com/yourusername/nextjs-starter-kit/issues" 
+                      href="https://github.com/mklozinski/NextJS-CC-Starter-Kit/issues" 
                       className="text-white hover:underline"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -333,7 +335,7 @@ export default function TermsPage() {
           {/* Final Note */}
           <section className="text-center bg-gray-50 dark:bg-gray-900 rounded-lg p-6">
             <p className="text-gray-700 dark:text-gray-300">
-              Thank you for using our free Next.js starter kit! We hope it helps you build amazing applications. 
+              Thank you for using our free Next.js CC starter kit! We hope it helps you build amazing applications. 
               Check out our{" "}
               <Link href="/license" className="text-blue-600 dark:text-blue-400 hover:underline">
                 License page

@@ -1,5 +1,7 @@
 import { Shield, Eye, Lock, Users, FileText, Mail } from "lucide-react"
 
+{/* This is from demo-website page. Adapt to your project. */}
+
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-black dark:to-gray-900">
@@ -16,7 +18,7 @@ export default function PrivacyPage() {
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Your privacy matters to us. This policy explains how we handle information 
-            related to this free, open-source Next.js starter kit.
+            related to this free, open-source Next.js CC starter kit.
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">
             Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -32,7 +34,7 @@ export default function PrivacyPage() {
                 Important: This is a Free Starter Kit
               </h3>
               <p className="text-blue-800 dark:text-blue-200">
-                This Next.js starter kit is completely free and open source. We don&apos;t collect personal data, 
+                This Next.js CC starter kit is completely free and open source. We don&apos;t collect personal data, 
                 run analytics on your usage, or track you in any way. This privacy policy primarily covers 
                 the demo website and any optional third-party services you might choose to integrate.
               </p>
@@ -200,7 +202,7 @@ export default function PrivacyPage() {
                 <p>
                   <strong>GitHub Issues:</strong>{" "}
                   <a 
-                    href="https://github.com/yourusername/nextjs-starter-kit/issues" 
+                    href="https://github.com/mklozinski/NextJS-CC-Starter-Kit/issues" 
                     className="text-white hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"

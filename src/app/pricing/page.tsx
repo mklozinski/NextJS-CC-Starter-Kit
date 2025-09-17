@@ -49,7 +49,7 @@ export default function PricingPage() {
   return (
     <div className="w-full py-12 lg:py-24">
       {/* Monthly/Yearly Toggle */}
-      <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl text-center mb-12 lg:mb-24">Pricing</h1>
+      <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl text-center mb-12 lg:mb-24">Pricing (example)</h1>
       <div className="flex justify-center mb-12">
         <div className="flex items-center space-x-4 bg-gray-100 dark:bg-gray-800 p-2 px-4 rounded-full">
           <span className={`text-sm font-medium transition-colors ${!isYearly ? 'text-gray-900 dark:text-white' : 'text-gray-500 dark:text-gray-400'}`}>

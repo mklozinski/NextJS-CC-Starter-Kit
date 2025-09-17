@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button"
 import { Scale, Heart, Code, Users, Shield } from "lucide-react"
 import Link from "next/link"
 
+{/* This is from demo-website page. Adapt to your project. */}
+
 export default function LicensePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-black dark:to-gray-900">
@@ -124,7 +126,7 @@ export default function LicensePage() {
             <pre className="whitespace-pre-wrap">
 {`MIT License
 
-Copyright (c) ${new Date().getFullYear()} Next.js Starter Kit
+Copyright (c) ${new Date().getFullYear()} Mike Lozinski (mklozinski)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -197,7 +199,7 @@ SOFTWARE.`}
               </Button>
             </Link>
             <a
-              href="https://github.com/yourusername/nextjs-starter-kit"
+              href="https://github.com/mklozinski/NextJS-CC-Starter-Kit"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -218,7 +220,7 @@ SOFTWARE.`}
           <p className="text-gray-600 dark:text-gray-300">
             If you have any questions about how you can use this starter kit, feel free to{" "}
             <a 
-              href="https://github.com/yourusername/nextjs-starter-kit/issues" 
+              href="https://github.com/mklozinski/NextJS-CC-Starter-Kit/issues" 
               className="text-blue-600 dark:text-blue-400 hover:underline"
               target="_blank"
               rel="noopener noreferrer"

@@ -36,7 +36,7 @@ A modern, production-ready Next.js starter kit with authentication, database int
 - MongoDB (local installation or MongoDB Atlas)
 - Git
 - Resend account for email functionality
-- Stripe account for payments (optional if not using Stripe)
+- Stripe account for payments
 
 ### Installation
 
@@ -149,7 +149,7 @@ The application uses the following main models:
 ### User
 - Basic user information (name, email)
 - Password (hashed with bcryptjs)
-- Account status and role
+- Account status and role (roles for future use, right now admin dashboard not implemented)
 - Password reset tokens and expiry
 
 ### Account & Session
