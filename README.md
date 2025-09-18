@@ -42,8 +42,8 @@ A modern, production-ready Next.js starter kit with authentication, database int
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd nextjs-starter-kit
+   git clone https://github.com/mklozinski/NextJS-CC-Starter-Kit my-app
+   cd my-app
    ```
 
 2. **Install dependencies**
